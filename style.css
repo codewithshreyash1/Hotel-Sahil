@@ -1,0 +1,101 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+nav{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.4rem;
+    text-decoration: none;
+    background-color: rgba(238, 228, 228, 0.155);
+    color: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+}
+a{
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    font-weight:600;
+    color: black;
+}
+body{
+    background-color: white
+    color: white;
+}
+#home{
+    height: 100vh;
+    background-image: url("https://images.pexels.com/photos/258154/pexels-photo-258154.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    display: flex;
+    align-items: center;
+    background-size: cover;
+    justify-content: center;
+    background-position: center;
+    transition: 2s;
+}
+#home h1{
+    font-size: 3rem;
+   font-family: monospace;
+    font-weight: 600;
+    color: white;
+    text-transform: uppercase;
+    background-color: white
+    border-radius: 1.7rem;
+    padding: 1rem;
+    letter-spacing: 0.3rem;
+}
+
+#about.img3{
+    width: 100%;
+} 
+.card-img-top2{
+    padding-bottom: 1.6rem;
+    }
+.card-img-top3{
+        padding-bottom: 1.6rem;
+        }
+
+
+.card-img-top6{
+    padding-bottom: 1.5rem;
+}
+.card-img-top7{
+padding-bottom: 2rem;
+}
+
+/* .card1{
+    background-color: rgb(232, 220, 220);
+}
+.card2{
+    background-color: rgb(232, 220, 220);
+    
+}
+.card3{
+    background-color: rgb(232, 220, 220);
+}
+
+.card-body2{
+    padding-top: -1.3rem;
+} */
+ /* .c1{
+    background-color: rgb(225, 220, 220);
+ }
+ .c2{
+    background-color: rgb(225, 220, 220);
+ }
+ .c3{
+    background-color: rgb(225, 220, 220);
+ } */
+  .card{
+    background-color: rgb(251, 239, 225);
+  }
+  .card:hover{
+    background-color: rgba(250, 235, 215, 0.573);
+   /* color: rgb(19, 18, 18); */
+
+    /* box-shadow: 0.8rem 0.8rem 0.8rem yellow; */
+  }
